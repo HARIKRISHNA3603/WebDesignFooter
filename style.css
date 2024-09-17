@@ -1,0 +1,232 @@
+/* Default code Starts here */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f0f8ff;
+    /* font-family: "Nunito", sans-serif; */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    margin-bottom: 1rem;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+    margin-bottom: 1rem;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+:root {
+    --primaryColor: #be9c79;
+    --secondaryColor: #660600;
+    --darkColor: #330300;
+    --lightColor: #ff0f00;
+    --regularFont: 1.6rem;
+    --headingFont: 54px;
+    --ffPrimary: "Nunito", sans-serif;
+    --ffSecondary: "Merienda", cursive;
+}
+
+/* Default code Ends here */
+
+/* Project standard classes Starts */
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+
+.minipad {
+    padding: 1rem;
+}
+
+/* Project standard classes Ends */
+
+/*::: PARENT CONTAINER CODE STARTS HERE::: */
+
+header,
+main,
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/*::: PARENT CONTAINER CODE ENDS HERE::: */
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dflex-col-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+
+/* <footer> </footer> */
+
+.WebDesignTechContainer {
+    background-color: rgba(224, 200, 0.15, 150)(225, 225, 225, 0.875);
+    color: black;
+    font-family:"source" Sans Pro, sans-serif;
+    margin-top: 3rem;
+}
+.footer-branding img {
+    margin-bottom: 2rem;
+}
+
+.footer-branding p {
+    margin-bottom: 1rem;
+    color: black;
+    font-family: "source" Sans Pro, sans-serif;
+    font-size: 1rem;
+}
+
+.footer-social a {
+    color: black;
+    margin-right: 2rem;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #1da1f2;
+}
+
+.footer-contact h3,
+.footer-column1 h3,
+.footer-column2 h3 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: Kanit, sans-serif;
+}
+
+.footer-contact input[type="email"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.footer-contact i.fa-envelope {
+    position: absolute;
+    margin-top: 0.5rem;
+}
+ .footer-contact p{
+    margin-top: 5rem;
+    color: black;
+    font-size: 1rem;
+    font-family: "source"Sans Pro,sans-serif;
+} 
+
+.footer-column1 ul,
+.footer-column2 ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column1{
+    font-family: kanit sans-serif;
+    font-size: 1.5rem;
+}
+.footer-column2{
+    font-family: kanit sans-serif;
+    font-size: 1.5rem;
+}
+
+.footer-column1 ul li a,
+.footer-column2 ul li a {
+    color: black;
+    font-family: Roboto sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column1 ul li a:hover,
+.footer-column2 ul li a:hover {
+    color: #1da1f2;
+}
+.copyrightsText h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.copyrightsText h4 {
+    color: black;
+    font-size: 1rem;
+    font-family: "source"Sans Pro,sans-serif;
+    margin-left: 2rem;
+    text-align: center;
+}
+
